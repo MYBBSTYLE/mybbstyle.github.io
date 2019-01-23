@@ -1,0 +1,98 @@
+
+@font-face {
+  font-family: 'myFont';
+  /* src: url("../fonts/OctoberStorm.ttf"); */
+  font-weight: bold;
+  /* src: url("../fonts/Surfing Capital.ttf") */
+  src: url("../fonts/Gabelisa Font by Keithzo (7NTypes).otf")
+  
+}
+html{ 
+   width:100%;
+  height: 100%;}
+
+body{
+
+  width: 100%;
+  height: 100%;
+  font-family: 'myFont';
+  background-image: url("../images/bgpaper.jpg");
+  background-position: top;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative; 
+}
+.title{
+    /* font-weight: 1000px;  */
+    color: transparent;
+    font-size:50px;
+    /* background: linear-gradient(to right,  #666699 28%, #339966 100%); */
+    background: url("../images/color.jpg") repeat; 
+    background-position: 50% 50%;
+    -webkit-background-clip: text;
+    position:relative;
+    text-align:center;
+    line-height:80px;
+    letter-spacing: 35px;
+    /* letter-spacing: 0px; */
+    
+  }
+  @media (min-width: 1200px) { 
+    .title{
+      font-size:80px;
+      line-height:130px;}
+   }
+ #green{
+  /* position:absolute;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+      left:50%;
+      top:50%;
+  width: 75%;
+  height: 200%; */
+   background: url("../images/green1.png");
+  }
+  
+  .container{
+    position:absolute;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+      left:50%;
+      top:50%;
+      
+  }
+
+.border-top {
+  top: 25px;
+}
+.border-bottom {
+  bottom: 25px;
+}
+.border-left {
+  left: 25px;
+}
+.border-right {
+  right: 25px;
+}
+
+.border-top, .border-bottom {
+  height: 24px;
+  left: 49px;
+  right: 49px;
+}
+.border-left, .border-right {
+  width: 24px;
+  top: 27px;
+  bottom: 26px;
+}
+
+.border-top, .border-bottom, .border-left, .border-right {
+  position: absolute;
+  background: #36af95;
+  z-index: 10;
+  opacity: 0.2;
+ 
+}
