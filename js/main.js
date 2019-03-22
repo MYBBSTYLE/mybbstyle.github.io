@@ -16,18 +16,13 @@ $(function () {
         standardScrollElements: "",
         setHeights: true,
         overflowScroll: true,
-        updateHash: true,
+        updateHash: false,
         touchScroll: true,
         before: function () { },
         after: function () { },
         afterResize: function () { },
         afterRender: function () { }
     });
-
-    // $(".loader").delay(2000).fadeOut("slow");
-    // $("#overlayer").delay(2000).fadeOut("fast");
-  
-
     $(document).mousemove(function (e) {
         mouseX = e.pageX;
         mouseY = e.pageY;
