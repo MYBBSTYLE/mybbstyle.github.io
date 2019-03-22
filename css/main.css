@@ -53,6 +53,7 @@
      #green {
          left: 0%;
          z-index: -1!important;
+        
      }
 
      .text-center {
@@ -85,7 +86,7 @@
          text-align: center;
          font-family: 'myFontContent';
          position: relative;
-         top: -3%;
+         top: -5%;
      }
 
      .linetopL, .linetopR, .lineL, .lineR, .linebottomL, .linebottomR {
@@ -293,7 +294,9 @@
          text-decoration: none;
          overflow-x: hidden;
          letter-spacing: 3px;
+
      }
+     .nav-pane a:hover {text-shadow: 0 0 5px #616161;}
 
      .nav-pane {
          position: fixed;
